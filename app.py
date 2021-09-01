@@ -17,7 +17,7 @@ st.markdown(
     unsafe_allow_html=True)
 
 st.set_option("deprecation.showfileUploaderEncoding", False)
-uploaded_file = st.file_uploader("Choose an image", type=["png","jpeg"])
+uploaded_file = st.file_uploader("Choose an image", type=["png","jpeg", "jpg"])
 
 if uploaded_file is not None:
 
