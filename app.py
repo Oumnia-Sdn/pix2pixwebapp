@@ -7,11 +7,11 @@ import os
 import requests
 import io
 
-#st.header("Generate facade images using cGAN")
+#st.header("Generate facade images using cGAN 🚀 ")
 st.markdown(
-    "<h1 style='text-align: center; color: blue;'>Generate facades images using cGAN</h1>",
+    "<h1 style='text-align: center; color: black;'>Generate facades images using cGAN</h1>",
     unsafe_allow_html=True)
-#st.write("Choose any paint image and get the corresponding facade :")
+#st.write("Choose any paint image and get the corresponding facade 😎:")
 st.markdown(
     "<h3 style='text-align: center; color:lightblue;'>Choose any paint image and get the corresponding facade :</h3>",
     unsafe_allow_html=True)
@@ -59,5 +59,6 @@ if uploaded_file is not None:
             col2.header("Generated Image")
             #st.image(image, caption='prediction', use_column_width=False)
             col2.image(image,use_column_width=True)
+
         else:
             "😬 api error 🤖"
