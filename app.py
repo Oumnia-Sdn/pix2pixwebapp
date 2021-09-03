@@ -112,8 +112,9 @@ elif nav == "drawing":
     color = element_color.get(element)
 
 
-    tool = st.sidebar.selectbox(
-        "Drawing tool:", ("freedraw", "line", "rect", "circle", "transform"))
+    tool = st.sidebar.selectbox("Drawing tool:",
+                                ("rect", "line", "circle", "freedraw",
+                                 "transform"))
 
 
     # realtime_update = st.sidebar.checkbox("Update in realtime", True)
