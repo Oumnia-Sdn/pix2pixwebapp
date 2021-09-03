@@ -30,3 +30,4 @@ memoized-property
 termcolor
 
 streamlit
+streamlit_drawable_canvas
